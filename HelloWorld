@@ -3,7 +3,9 @@ cat < HelloWorld
 #include <string>
   int
   main()
-{  std::string name;
+{
+  std::string name;
   std::cin >> name;                                 // enter your name
   std::cout << "Hello world " << name << std::endl; // output hello world name
-  return 0;}
+  return 0;
+}
