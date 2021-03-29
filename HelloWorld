@@ -1,9 +1,7 @@
-cat < HelloWorld
 #include <iostream>
 #include <string>
-  int
-  main()
+  int main()
 {  std::string name;
-  std::cin >> name;                                 // введите, ваше имя
-  std::cout << "Hello world " << name << std::endl; // вывод привет мир и имя
+  std::cin >> name;                                 // enter your name
+  std::cout << "Hello world " << name << std::endl; // output hello world name
   return 0;}
