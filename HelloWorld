@@ -5,6 +5,6 @@ cat < HelloWorld
   main()
   s
 {  std::string name;
-  std::cin >> name;                                 // enter your realy name and name
-  std::cout << "Hello world " << name << std::endl; // output hello world name
+  std::cin >> name;                                 // введите ваше имя
+  std::cout << "Hello world " << name << std::endl; // вывод привет мир и имя
   return 0;}
