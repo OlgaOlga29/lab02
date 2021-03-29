@@ -5,7 +5,7 @@ cat < HelloWorld
   main()
 {
   std::string name;
-  std::cin >> name;                                 // enter your name
+  std::cin >> name;                                 // enter your name and name
   std::cout << "Hello world " << name << std::endl; // output hello world name
   return 0;
 }
