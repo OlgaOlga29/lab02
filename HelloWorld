@@ -3,8 +3,7 @@ cat < HelloWorld
 #include <string>
   int
   main()
-  s
 {  std::string name;
-  std::cin >> name;                                 // введите ваше имя
+  std::cin >> name;                                 // введите, ваше имя
   std::cout << "Hello world " << name << std::endl; // вывод привет мир и имя
   return 0;}
