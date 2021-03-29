@@ -3,7 +3,8 @@ cat < HelloWorld
 #include <string>
   int
   main()
+  s
 {  std::string name;
   std::cin >> name;                                 // enter your realy name and name
-  std::cout << "Hello world " << name << std::endl; // output hello world and name
+  std::cout << "Hello world " << name << std::endl; // output hello world name
   return 0;}
